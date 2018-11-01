@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="807" started-at="2018-10-30T08:31:09Z" finished-at="2018-10-30T08:31:10Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="807" started-at="2018-10-30T08:31:09Z" finished-at="2018-10-30T08:31:10Z">
+      <class name="Guru99.Guru99.Apache_POI">
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Guru99.Guru99.Apache_POI@5622fdf]" name="f" duration-ms="556" started-at="2018-10-30T08:31:09Z" finished-at="2018-10-30T08:31:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[D:\Personal\TestData]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[excelpoi.xlsx]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="g(java.lang.String, java.lang.String)[pri:0, instance:Guru99.Guru99.Apache_POI@5622fdf]" name="g" duration-ms="222" started-at="2018-10-30T08:31:10Z" finished-at="2018-10-30T08:31:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[D:\Personal\TestData]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Output_file.xls]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- g -->
+      </class> <!-- Guru99.Guru99.Apache_POI -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

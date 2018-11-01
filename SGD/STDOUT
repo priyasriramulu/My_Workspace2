@@ -1,0 +1,45 @@
+@UserStory1
+Feature: User Story 1 - Login page
+  
+  As a user
+  I want to login 
+  So that i can see my account home page
+
+  Scenario: Sign up for new acount       # src/main/java/Feature/Login.Feature:8
+    Given User on the home page          # HopePageStepDefinitions.user_on_the_home_page()
+    When click on Sign Up Menu           # HopePageStepDefinitions.clickonSignUpMenu()
+    Then I can see Account creation page # AccStepDefinitions.i_can_see_Account_creation_page(DataTable)
+    Then I input the fields              # AccStepDefinitions.I_input_the_fields(DataTable)
+      net.serenitybdd.core.exceptions.SerenityManagedException: The following error occurred: 
+      Build info: version: '3.5.2', revision: '10229a9', time: '2017-08-21T17:29:55.15Z'
+      System info: host: 'HAUSGSGPA0011C', ip: '10.50.131.54', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_171'
+      Driver info: org.openqa.selenium.firefox.FirefoxDriver
+      Capabilities [{moz:profile=C:\Users\AU0003A7\AppData\Local\Temp\rust_mozprofile.VYLBtIMCW8YT, rotatable=false, moz:geckodriverVersion=0.23.0, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, moz:headless=false, platform=ANY, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=63.0, platformVersion=6.1, moz:processID=6168, browserName=firefox, javascriptEnabled=true, platformName=windows, setWindowRect=true, moz:webdriverClick=true}]
+      Session ID: b5faf6b3-5c65-497b-a890-4ceba4e3376d
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+      	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+      	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:698)
+      	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:1024)
+      	at net.serenitybdd.core.pages.PageObject.getAlert(PageObject.java:1039)
+      	at Pages.AccountPage.company_signin(AccountPage.java:137)
+      	at Steps.AccPageStep.CompanyDetails(AccPageStep.java:41)
+      	at Steps.AccPageStep$$EnhancerByCGLIB$$87e6a56b.CGLIB$CompanyDetails$2(<generated>)
+      	at Steps.AccPageStep$$EnhancerByCGLIB$$87e6a56b$$FastClassByCGLIB$$64dd7521.invoke(<generated>)
+      	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+      	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:395)
+      	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:380)
+      	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:355)
+      	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:132)
+      	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
+      	at Steps.AccPageStep$$EnhancerByCGLIB$$87e6a56b.CompanyDetails(<generated>)
+      	at HomePageStepDefinitions.AccStepDefinitions.I_input_the_fields(AccStepDefinitions.java:73)
+      	at ✽.Then I input the fields(src/main/java/Feature/Login.Feature:14)
+
