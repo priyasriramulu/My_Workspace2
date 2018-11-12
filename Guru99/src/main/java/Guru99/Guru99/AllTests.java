@@ -1,4 +1,4 @@
-package Guru99.Guru99;
+/*package Guru99.Guru99;
 
 import junit.framework.Test;
 import junit.framework.TestSuite;
@@ -13,4 +13,4 @@ public class AllTests {
 		return suite;
 	}
 
-}
+}*/

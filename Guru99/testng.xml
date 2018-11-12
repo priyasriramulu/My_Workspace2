@@ -1,22 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Suite" parallel="tests">
-  <test thread-count="5" name="firefox">
- 	<parameter name="browser" value="firefox"></parameter>
+<suite name="Suite">
+  <test thread-count="5" name="Test">
     <classes>
-      <class name="Guru99.Guru99.Grid"/>
+    <!--   <class name="Guru99.Guru99.DateTimePicker"/>
+      <class name="Guru99.Guru99.AppTest"/>
+      <class name="Guru99.Guru99.Parameters"/>
+      <class name="Guru99.Guru99.TestNG_Practice"/>
+      <class name="Guru99.Guru99.DataProvider"/> -->
+      <class name="Guru99.Guru99.Dynamic_WebTable"/>
+     <!--  <class name="Guru99.Guru99.Alert_Popup"/>
+      <class name="Guru99.Guru99.Grid"/>--> 
     </classes>
   </test> <!-- Test -->
-  <test thread-count="5" name="chrome">
- 	<parameter name="browser" value="chrome"></parameter>
-    <classes>
-      <class name="Guru99.Guru99.Grid"/>
-    </classes>
-  </test>
-  <test thread-count="5" name="Internet Explorer">
- 	<parameter name="browser" value="IE"></parameter>
-    <classes>
-      <class name="Guru99.Guru99.Grid"/>
-    </classes>
-  </test>
 </suite> <!-- Suite -->
